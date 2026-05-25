@@ -1,0 +1,6 @@
+model,train_r2,test_r2,adj_r2,mae,rmse
+LinearRegression,0.5925,0.6037,0.595,1997.23,2874.56
+DecisionTreeRegressor,0.9697,0.6277,0.6195,1417.73,2786.05
+RandomForestRegressor,0.951,0.8052,0.801,1186.87,2015.15
+XGBRegressor,0.9439,0.7908,0.7862,1205.44,2088.28
+LGBMRegressor,0.8796,0.8275,0.8237,1261.01,1896.26

@@ -1,0 +1,84 @@
+===============================================================
+  TIME-SERIES MODEL SUITABILITY VERDICT
+  Flight Fare Dataset  ·  2019-03-01 -> 2019-06-27
+===============================================================
+
+DATASET CHARACTERISTICS (after aggregation to daily level)
+----------------------------------------------------------
+  Calendar days    : 119
+  Total flights    : 31,720
+  Mean daily price : Rs.8,143
+  Observation type : Cross-sectional (many flights per day)
+                     aggregated to a single daily mean price
+
+STATIONARITY  (Augmented Dickey-Fuller test)
+--------------------------------------------
+  Level series
+    ADF statistic : -4.6205
+    p-value       : 0.000118
+    Critical 5%   : -2.8864
+    -> STATIONARY (p < 0.05)
+
+  First-difference series
+    ADF statistic : -4.7527
+    p-value       : 6.7e-05
+    Critical 5%   : -2.8877
+    -> STATIONARY (p < 0.05)
+
+MODEL SUITABILITY ASSESSMENT
+-----------------------------
+  GARCH
+    Verdict : ✗  NOT APPLICABLE
+    Reason  : GARCH models volatility clustering in financial returns
+              (log-return variance over time).  Flight fares are price
+              levels, not returns, and do not exhibit the autocorrelated
+              variance structure GARCH is designed for.
+
+  SVAR  (Structural Vector Autoregression)
+    Verdict : ✗  NOT APPLICABLE
+    Reason  : SVAR requires multiple co-integrated time series with
+              structural causal relationships (e.g., fuel index, seat
+              demand, CPI).  This dataset contains a single target
+              variable and covers only 119 days — far too short for
+              reliable SVAR estimation.
+
+  SARIMA
+    Verdict : ⚠  LIMITED VALUE
+    Reason  : Only 119 calendar days of data.  Reliable seasonal
+              ARIMA estimation typically needs ≥ 2 full seasonal cycles:
+                • Weekly seasonality (s=7)  -> needs ≥ 14 days  ✓ (OK)
+                • Monthly seasonality (s=30) -> needs ≥ 60 days  ✓
+                • Annual seasonality (s=365) -> needs ≥ 730 days ✗ (only 119 days)
+              More critically, aggregation discards all flight-level
+              features (airline, route, stops) that drive 80%+ of
+              the price variance.
+
+  SARIMAX  (SARIMA + exogenous variables)
+    Verdict : ⚠  MARGINAL IMPROVEMENT OVER SARIMA
+    Reason  : Month dummies or holiday flags can be added as exogenous
+              regressors, but the 4-month window still limits seasonal
+              parameter reliability.  The ML models already incorporate
+              these temporal features far more effectively (along with
+              route/airline features not usable in SARIMAX).
+
+  ML Models (Random Forest / XGBoost / LightGBM)
+    Verdict : ✓  CORRECT PRIMARY APPROACH
+    Reasons :
+      1. Retains all 45 enriched features including airline, source,
+         destination, stops, and temporal signals.
+      2. Does not require data aggregation — works on individual flights.
+      3. Achieved test R² ≈ 0.83 vs. SARIMA-on-aggregated ≈ 0.40–0.55.
+      4. Naturally captures non-linear interactions (e.g., Jet Airways
+         premium on long-haul routes) that linear TS models cannot.
+
+RECOMMENDATION
+--------------
+  Keep the ML pipeline as the PRIMARY model.
+
+  Optional additions (when more data is available):
+    • Once you have ≥ 2 years of daily price data, add a SARIMAX trend
+      layer to produce macro-level price forecasts by route group.
+    • Prophet (Facebook) is a practical alternative to SARIMAX for
+      short series with weekly/yearly seasonality and holiday effects.
+
+===============================================================

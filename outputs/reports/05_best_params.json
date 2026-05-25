@@ -1,0 +1,29 @@
+{
+  "RandomForestRegressor": {
+    "n_estimators": 369,
+    "max_depth": 15,
+    "min_samples_split": 8,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt",
+    "bootstrap": false
+  },
+  "XGBRegressor": {
+    "n_estimators": 334,
+    "max_depth": 9,
+    "learning_rate": 0.01118882207185993,
+    "subsample": 0.8926973840881,
+    "colsample_bytree": 0.8894107052117572,
+    "gamma": 0.2238193162159428,
+    "reg_alpha": 0.00960107046870703,
+    "reg_lambda": 0.7202211604089487
+  },
+  "LGBMRegressor": {
+    "n_estimators": 252,
+    "max_depth": 10,
+    "learning_rate": 0.08526103478795378,
+    "subsample": 0.99091163697093,
+    "colsample_bytree": 0.8759670088988916,
+    "reg_alpha": 0.0002024967096277903,
+    "reg_lambda": 0.020827394675925592
+  }
+}

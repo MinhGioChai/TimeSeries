@@ -1,0 +1,9 @@
+HYBRID MODEL COMPARISON
+=======================
+
+LightGBM baseline         R2=0.5351  MAE=1,758 INR
+LightGBM + SARIMAX feat   R2=0.7629  MAE=1,392 INR
+Improvement               dR2=+0.2278  dMAE=+366 INR
+
+Extra feature: SARIMAX in-sample weekly fitted price for each flight's
+journey week.  Captures macro price level that shifts week-by-week.

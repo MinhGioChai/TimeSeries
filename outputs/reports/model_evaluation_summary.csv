@@ -1,0 +1,12 @@
+Category,Model,Split,R2,MAE_INR,MAE_USD,RMSE_INR,RMSE_USD
+Baseline,LinearRegression,Random 80/20,0.6037,1997.23,28.36,2874.56,40.82
+Baseline,DecisionTreeRegressor,Random 80/20,0.6277,1417.73,20.13,2786.05,39.56
+Baseline,RandomForestRegressor,Random 80/20,0.8052,1186.87,16.85,2015.15,28.62
+Baseline,XGBRegressor,Random 80/20,0.7908,1205.44,17.12,2088.28,29.65
+Baseline,LGBMRegressor,Random 80/20,0.8275,1261.01,17.91,1896.26,26.93
+ML – Temporal,LightGBM,Temporal Mar-May / Jun,0.5351,1757.89,24.96,,
+Statistical,SARIMAX,Temporal Mar-May / Jun (weekly agg.),-0.3701,1282.36,18.21,,
+ML – Hybrid,LightGBM + SARIMAX,Temporal Mar-May / Jun,0.7629,1392.3,19.77,,
+Tuned,RandomForestRegressor,Random 80/20,0.8188,1233.44,17.52,1943.67,27.6
+Tuned,XGBRegressor,Random 80/20,0.84,1162.02,16.5,1826.53,25.94
+Tuned,LGBMRegressor,Random 80/20,0.8371,1181.74,16.78,1843.06,26.17

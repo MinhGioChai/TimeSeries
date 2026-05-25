@@ -1,0 +1,45 @@
+Shape: (10683, 11)
+
+Dtypes:
+Airline            object
+Date_of_Journey    object
+Source             object
+Destination        object
+Route              object
+Dep_Time           object
+Arrival_Time       object
+Duration           object
+Total_Stops        object
+Additional_Info    object
+Price               int64
+
+Missing values:
+Airline            0
+Date_of_Journey    0
+Source             0
+Destination        0
+Route              1
+Dep_Time           0
+Arrival_Time       0
+Duration           0
+Total_Stops        1
+Additional_Info    0
+Price              0
+
+Numeric summary:
+              Price
+count  10683.000000
+mean    9087.064121
+std     4611.359167
+min     1759.000000
+25%     5277.000000
+50%     8372.000000
+75%    12373.000000
+max    79512.000000
+
+Categorical summary:
+            Airline Date_of_Journey Source Destination            Route Dep_Time Arrival_Time Duration Total_Stops Additional_Info
+count         10683           10683  10683       10683            10682    10683        10683    10683       10682           10683
+unique           12              44      5           6              128      222         1343      368           5              10
+top     Jet Airways      18/05/2019  Delhi      Cochin  DEL ? BOM ? COK    18:55        19:00   2h 50m      1 stop         No info
+freq           3849             504   4537        4537             2376      233          423      550        5625            8345

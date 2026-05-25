@@ -1,0 +1,14 @@
+SARIMAX WEEKLY PRICE ANALYSIS
+==============================
+Weekly observations : 18
+Date range          : 2019-02-25 to 2019-06-24
+ADF statistic       : -2.1583  (p=0.221715)
+Stationarity        : No — differencing applied
+Best ARIMA order    : ARIMA(0, 1, 2)  (AIC=170.2)
+Fitted AIC          : 170.2
+Fitted BIC          : 171.1
+Forecast R2         : -0.3701
+Forecast MAE        : 1,282 INR
+
+NOTE: Only 17-18 weekly observations — insufficient for reliable annual
+seasonality estimation.  Use this as a trend/smoothing baseline only.

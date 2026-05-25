@@ -1,0 +1,249 @@
+Date,Weekday,Is_Weekend,Airline,Source,Destination,Predicted_Price_INR,Predicted_Price_USD
+2019-07-01,Mon,0,Air Asia,Delhi,Cochin,7568,107.47
+2019-07-02,Tue,0,Air Asia,Delhi,Cochin,7505,106.57
+2019-07-03,Wed,0,Air Asia,Delhi,Cochin,7445,105.72
+2019-07-04,Thu,0,Air Asia,Delhi,Cochin,7528,106.9
+2019-07-05,Fri,0,Air Asia,Delhi,Cochin,7735,109.84
+2019-07-06,Sat,1,Air Asia,Delhi,Cochin,7607,108.02
+2019-07-07,Sun,1,Air Asia,Delhi,Cochin,7803,110.81
+2019-07-08,Mon,0,Air Asia,Delhi,Cochin,7448,105.77
+2019-07-09,Tue,0,Air Asia,Delhi,Cochin,7464,105.99
+2019-07-10,Wed,0,Air Asia,Delhi,Cochin,7429,105.5
+2019-07-11,Thu,0,Air Asia,Delhi,Cochin,7495,106.43
+2019-07-12,Fri,0,Air Asia,Delhi,Cochin,6897,97.94
+2019-07-13,Sat,1,Air Asia,Delhi,Cochin,6942,98.58
+2019-07-14,Sun,1,Air Asia,Delhi,Cochin,7107,100.92
+2019-07-15,Mon,0,Air Asia,Delhi,Cochin,6733,95.61
+2019-07-16,Tue,0,Air Asia,Delhi,Cochin,6652,94.46
+2019-07-17,Wed,0,Air Asia,Delhi,Cochin,6628,94.12
+2019-07-18,Thu,0,Air Asia,Delhi,Cochin,6710,95.29
+2019-07-19,Fri,0,Air Asia,Delhi,Cochin,6889,97.83
+2019-07-20,Sat,1,Air Asia,Delhi,Cochin,6934,98.47
+2019-07-21,Sun,1,Air Asia,Delhi,Cochin,7103,100.87
+2019-07-22,Mon,0,Air Asia,Delhi,Cochin,6766,96.08
+2019-07-23,Tue,0,Air Asia,Delhi,Cochin,6698,95.12
+2019-07-24,Wed,0,Air Asia,Delhi,Cochin,6424,91.22
+2019-07-25,Thu,0,Air Asia,Delhi,Cochin,6460,91.74
+2019-07-26,Fri,0,Air Asia,Delhi,Cochin,6660,94.58
+2019-07-27,Sat,1,Air Asia,Delhi,Cochin,6770,96.14
+2019-07-28,Sun,1,Air Asia,Delhi,Cochin,6922,98.3
+2019-07-29,Mon,0,Air Asia,Delhi,Cochin,6613,93.91
+2019-07-30,Tue,0,Air Asia,Delhi,Cochin,6473,91.92
+2019-07-31,Wed,0,Air Asia,Delhi,Cochin,6444,91.51
+2019-07-01,Mon,0,Air India,Delhi,Cochin,12651,179.65
+2019-07-02,Tue,0,Air India,Delhi,Cochin,12607,179.03
+2019-07-03,Wed,0,Air India,Delhi,Cochin,12586,178.73
+2019-07-04,Thu,0,Air India,Delhi,Cochin,12489,177.35
+2019-07-05,Fri,0,Air India,Delhi,Cochin,12643,179.54
+2019-07-06,Sat,1,Air India,Delhi,Cochin,12567,178.46
+2019-07-07,Sun,1,Air India,Delhi,Cochin,12571,178.51
+2019-07-08,Mon,0,Air India,Delhi,Cochin,12641,179.51
+2019-07-09,Tue,0,Air India,Delhi,Cochin,12382,175.83
+2019-07-10,Wed,0,Air India,Delhi,Cochin,12336,175.18
+2019-07-11,Thu,0,Air India,Delhi,Cochin,12306,174.75
+2019-07-12,Fri,0,Air India,Delhi,Cochin,12296,174.61
+2019-07-13,Sat,1,Air India,Delhi,Cochin,12325,175.02
+2019-07-14,Sun,1,Air India,Delhi,Cochin,12310,174.81
+2019-07-15,Mon,0,Air India,Delhi,Cochin,12408,176.2
+2019-07-16,Tue,0,Air India,Delhi,Cochin,12364,175.58
+2019-07-17,Wed,0,Air India,Delhi,Cochin,12321,174.96
+2019-07-18,Thu,0,Air India,Delhi,Cochin,12281,174.4
+2019-07-19,Fri,0,Air India,Delhi,Cochin,12353,175.42
+2019-07-20,Sat,1,Air India,Delhi,Cochin,12388,175.92
+2019-07-21,Sun,1,Air India,Delhi,Cochin,12360,175.52
+2019-07-22,Mon,0,Air India,Delhi,Cochin,12395,176.02
+2019-07-23,Tue,0,Air India,Delhi,Cochin,12351,175.39
+2019-07-24,Wed,0,Air India,Delhi,Cochin,12291,174.54
+2019-07-25,Thu,0,Air India,Delhi,Cochin,12292,174.55
+2019-07-26,Fri,0,Air India,Delhi,Cochin,12369,175.65
+2019-07-27,Sat,1,Air India,Delhi,Cochin,12377,175.76
+2019-07-28,Sun,1,Air India,Delhi,Cochin,12339,175.22
+2019-07-29,Mon,0,Air India,Delhi,Cochin,12439,176.64
+2019-07-30,Tue,0,Air India,Delhi,Cochin,12326,175.04
+2019-07-31,Wed,0,Air India,Delhi,Cochin,12294,174.58
+2019-07-01,Mon,0,GoAir,Delhi,Cochin,6486,92.1
+2019-07-02,Tue,0,GoAir,Delhi,Cochin,6427,91.27
+2019-07-03,Wed,0,GoAir,Delhi,Cochin,6456,91.68
+2019-07-04,Thu,0,GoAir,Delhi,Cochin,6502,92.33
+2019-07-05,Fri,0,GoAir,Delhi,Cochin,6618,93.98
+2019-07-06,Sat,1,GoAir,Delhi,Cochin,6511,92.46
+2019-07-07,Sun,1,GoAir,Delhi,Cochin,6542,92.9
+2019-07-08,Mon,0,GoAir,Delhi,Cochin,6465,91.81
+2019-07-09,Tue,0,GoAir,Delhi,Cochin,6391,90.76
+2019-07-10,Wed,0,GoAir,Delhi,Cochin,6380,90.6
+2019-07-11,Thu,0,GoAir,Delhi,Cochin,6416,91.11
+2019-07-12,Fri,0,GoAir,Delhi,Cochin,6285,89.25
+2019-07-13,Sat,1,GoAir,Delhi,Cochin,6301,89.48
+2019-07-14,Sun,1,GoAir,Delhi,Cochin,6327,89.85
+2019-07-15,Mon,0,GoAir,Delhi,Cochin,6252,88.78
+2019-07-16,Tue,0,GoAir,Delhi,Cochin,6237,88.57
+2019-07-17,Wed,0,GoAir,Delhi,Cochin,6245,88.68
+2019-07-18,Thu,0,GoAir,Delhi,Cochin,6231,88.48
+2019-07-19,Fri,0,GoAir,Delhi,Cochin,6291,89.34
+2019-07-20,Sat,1,GoAir,Delhi,Cochin,6308,89.58
+2019-07-21,Sun,1,GoAir,Delhi,Cochin,6300,89.46
+2019-07-22,Mon,0,GoAir,Delhi,Cochin,6190,87.9
+2019-07-23,Tue,0,GoAir,Delhi,Cochin,6180,87.76
+2019-07-24,Wed,0,GoAir,Delhi,Cochin,5928,84.18
+2019-07-25,Thu,0,GoAir,Delhi,Cochin,5961,84.65
+2019-07-26,Fri,0,GoAir,Delhi,Cochin,6056,86.0
+2019-07-27,Sat,1,GoAir,Delhi,Cochin,6029,85.61
+2019-07-28,Sun,1,GoAir,Delhi,Cochin,6026,85.57
+2019-07-29,Mon,0,GoAir,Delhi,Cochin,5821,82.66
+2019-07-30,Tue,0,GoAir,Delhi,Cochin,5863,83.26
+2019-07-31,Wed,0,GoAir,Delhi,Cochin,5872,83.39
+2019-07-01,Mon,0,IndiGo,Delhi,Cochin,6977,99.08
+2019-07-02,Tue,0,IndiGo,Delhi,Cochin,6900,97.98
+2019-07-03,Wed,0,IndiGo,Delhi,Cochin,6952,98.72
+2019-07-04,Thu,0,IndiGo,Delhi,Cochin,6943,98.59
+2019-07-05,Fri,0,IndiGo,Delhi,Cochin,7008,99.52
+2019-07-06,Sat,1,IndiGo,Delhi,Cochin,6913,98.17
+2019-07-07,Sun,1,IndiGo,Delhi,Cochin,6933,98.45
+2019-07-08,Mon,0,IndiGo,Delhi,Cochin,6918,98.24
+2019-07-09,Tue,0,IndiGo,Delhi,Cochin,6848,97.25
+2019-07-10,Wed,0,IndiGo,Delhi,Cochin,6911,98.14
+2019-07-11,Thu,0,IndiGo,Delhi,Cochin,6858,97.39
+2019-07-12,Fri,0,IndiGo,Delhi,Cochin,6852,97.3
+2019-07-13,Sat,1,IndiGo,Delhi,Cochin,6848,97.25
+2019-07-14,Sun,1,IndiGo,Delhi,Cochin,6822,96.88
+2019-07-15,Mon,0,IndiGo,Delhi,Cochin,6838,97.1
+2019-07-16,Tue,0,IndiGo,Delhi,Cochin,6812,96.73
+2019-07-17,Wed,0,IndiGo,Delhi,Cochin,6805,96.63
+2019-07-18,Thu,0,IndiGo,Delhi,Cochin,6843,97.17
+2019-07-19,Fri,0,IndiGo,Delhi,Cochin,6871,97.57
+2019-07-20,Sat,1,IndiGo,Delhi,Cochin,6879,97.69
+2019-07-21,Sun,1,IndiGo,Delhi,Cochin,6815,96.78
+2019-07-22,Mon,0,IndiGo,Delhi,Cochin,6837,97.09
+2019-07-23,Tue,0,IndiGo,Delhi,Cochin,6815,96.78
+2019-07-24,Wed,0,IndiGo,Delhi,Cochin,6679,94.85
+2019-07-25,Thu,0,IndiGo,Delhi,Cochin,6670,94.72
+2019-07-26,Fri,0,IndiGo,Delhi,Cochin,6723,95.47
+2019-07-27,Sat,1,IndiGo,Delhi,Cochin,6756,95.94
+2019-07-28,Sun,1,IndiGo,Delhi,Cochin,6717,95.38
+2019-07-29,Mon,0,IndiGo,Delhi,Cochin,6682,94.89
+2019-07-30,Tue,0,IndiGo,Delhi,Cochin,6699,95.13
+2019-07-31,Wed,0,IndiGo,Delhi,Cochin,6707,95.24
+2019-07-01,Mon,0,Jet Airways,Delhi,Cochin,10890,154.64
+2019-07-02,Tue,0,Jet Airways,Delhi,Cochin,11166,158.56
+2019-07-03,Wed,0,Jet Airways,Delhi,Cochin,11553,164.06
+2019-07-04,Thu,0,Jet Airways,Delhi,Cochin,11532,163.76
+2019-07-05,Fri,0,Jet Airways,Delhi,Cochin,11600,164.73
+2019-07-06,Sat,1,Jet Airways,Delhi,Cochin,11507,163.41
+2019-07-07,Sun,1,Jet Airways,Delhi,Cochin,11576,164.39
+2019-07-08,Mon,0,Jet Airways,Delhi,Cochin,11529,163.72
+2019-07-09,Tue,0,Jet Airways,Delhi,Cochin,11362,161.35
+2019-07-10,Wed,0,Jet Airways,Delhi,Cochin,11237,159.57
+2019-07-11,Thu,0,Jet Airways,Delhi,Cochin,11390,161.74
+2019-07-12,Fri,0,Jet Airways,Delhi,Cochin,11360,161.32
+2019-07-13,Sat,1,Jet Airways,Delhi,Cochin,11265,159.97
+2019-07-14,Sun,1,Jet Airways,Delhi,Cochin,11364,161.37
+2019-07-15,Mon,0,Jet Airways,Delhi,Cochin,11305,160.54
+2019-07-16,Tue,0,Jet Airways,Delhi,Cochin,11242,159.64
+2019-07-17,Wed,0,Jet Airways,Delhi,Cochin,11231,159.49
+2019-07-18,Thu,0,Jet Airways,Delhi,Cochin,11111,157.78
+2019-07-19,Fri,0,Jet Airways,Delhi,Cochin,11282,160.21
+2019-07-20,Sat,1,Jet Airways,Delhi,Cochin,11220,159.33
+2019-07-21,Sun,1,Jet Airways,Delhi,Cochin,11301,160.48
+2019-07-22,Mon,0,Jet Airways,Delhi,Cochin,11270,160.04
+2019-07-23,Tue,0,Jet Airways,Delhi,Cochin,11207,159.15
+2019-07-24,Wed,0,Jet Airways,Delhi,Cochin,10643,151.14
+2019-07-25,Thu,0,Jet Airways,Delhi,Cochin,11050,156.92
+2019-07-26,Fri,0,Jet Airways,Delhi,Cochin,11238,159.59
+2019-07-27,Sat,1,Jet Airways,Delhi,Cochin,11135,158.12
+2019-07-28,Sun,1,Jet Airways,Delhi,Cochin,11300,160.47
+2019-07-29,Mon,0,Jet Airways,Delhi,Cochin,11259,159.88
+2019-07-30,Tue,0,Jet Airways,Delhi,Cochin,11196,158.99
+2019-07-31,Wed,0,Jet Airways,Delhi,Cochin,10577,150.2
+2019-07-01,Mon,0,Multiple carriers,Delhi,Cochin,13031,185.05
+2019-07-02,Tue,0,Multiple carriers,Delhi,Cochin,12965,184.11
+2019-07-03,Wed,0,Multiple carriers,Delhi,Cochin,12935,183.68
+2019-07-04,Thu,0,Multiple carriers,Delhi,Cochin,12854,182.53
+2019-07-05,Fri,0,Multiple carriers,Delhi,Cochin,13234,187.93
+2019-07-06,Sat,1,Multiple carriers,Delhi,Cochin,13021,184.9
+2019-07-07,Sun,1,Multiple carriers,Delhi,Cochin,12979,184.31
+2019-07-08,Mon,0,Multiple carriers,Delhi,Cochin,12770,181.34
+2019-07-09,Tue,0,Multiple carriers,Delhi,Cochin,12252,173.98
+2019-07-10,Wed,0,Multiple carriers,Delhi,Cochin,12217,173.49
+2019-07-11,Thu,0,Multiple carriers,Delhi,Cochin,12264,174.16
+2019-07-12,Fri,0,Multiple carriers,Delhi,Cochin,12531,177.95
+2019-07-13,Sat,1,Multiple carriers,Delhi,Cochin,12619,179.2
+2019-07-14,Sun,1,Multiple carriers,Delhi,Cochin,12556,178.3
+2019-07-15,Mon,0,Multiple carriers,Delhi,Cochin,12335,175.16
+2019-07-16,Tue,0,Multiple carriers,Delhi,Cochin,12231,173.69
+2019-07-17,Wed,0,Multiple carriers,Delhi,Cochin,12210,173.39
+2019-07-18,Thu,0,Multiple carriers,Delhi,Cochin,12242,173.84
+2019-07-19,Fri,0,Multiple carriers,Delhi,Cochin,12276,174.33
+2019-07-20,Sat,1,Multiple carriers,Delhi,Cochin,12321,174.96
+2019-07-21,Sun,1,Multiple carriers,Delhi,Cochin,12304,174.72
+2019-07-22,Mon,0,Multiple carriers,Delhi,Cochin,12295,174.6
+2019-07-23,Tue,0,Multiple carriers,Delhi,Cochin,12216,173.47
+2019-07-24,Wed,0,Multiple carriers,Delhi,Cochin,12193,173.15
+2019-07-25,Thu,0,Multiple carriers,Delhi,Cochin,12281,174.4
+2019-07-26,Fri,0,Multiple carriers,Delhi,Cochin,12297,174.62
+2019-07-27,Sat,1,Multiple carriers,Delhi,Cochin,12362,175.55
+2019-07-28,Sun,1,Multiple carriers,Delhi,Cochin,12350,175.38
+2019-07-29,Mon,0,Multiple carriers,Delhi,Cochin,12373,175.7
+2019-07-30,Tue,0,Multiple carriers,Delhi,Cochin,12254,174.01
+2019-07-31,Wed,0,Multiple carriers,Delhi,Cochin,12193,173.15
+2019-07-01,Mon,0,SpiceJet,Delhi,Cochin,7219,102.51
+2019-07-02,Tue,0,SpiceJet,Delhi,Cochin,7142,101.42
+2019-07-03,Wed,0,SpiceJet,Delhi,Cochin,8075,114.67
+2019-07-04,Thu,0,SpiceJet,Delhi,Cochin,8287,117.68
+2019-07-05,Fri,0,SpiceJet,Delhi,Cochin,8280,117.58
+2019-07-06,Sat,1,SpiceJet,Delhi,Cochin,8277,117.54
+2019-07-07,Sun,1,SpiceJet,Delhi,Cochin,8234,116.93
+2019-07-08,Mon,0,SpiceJet,Delhi,Cochin,8116,115.25
+2019-07-09,Tue,0,SpiceJet,Delhi,Cochin,8096,114.97
+2019-07-10,Wed,0,SpiceJet,Delhi,Cochin,8122,115.34
+2019-07-11,Thu,0,SpiceJet,Delhi,Cochin,8251,117.17
+2019-07-12,Fri,0,SpiceJet,Delhi,Cochin,8150,115.73
+2019-07-13,Sat,1,SpiceJet,Delhi,Cochin,8263,117.34
+2019-07-14,Sun,1,SpiceJet,Delhi,Cochin,8223,116.77
+2019-07-15,Mon,0,SpiceJet,Delhi,Cochin,8112,115.19
+2019-07-16,Tue,0,SpiceJet,Delhi,Cochin,8084,114.8
+2019-07-17,Wed,0,SpiceJet,Delhi,Cochin,8117,115.27
+2019-07-18,Thu,0,SpiceJet,Delhi,Cochin,8188,116.27
+2019-07-19,Fri,0,SpiceJet,Delhi,Cochin,8149,115.72
+2019-07-20,Sat,1,SpiceJet,Delhi,Cochin,8272,117.47
+2019-07-21,Sun,1,SpiceJet,Delhi,Cochin,7717,109.59
+2019-07-22,Mon,0,SpiceJet,Delhi,Cochin,7593,107.82
+2019-07-23,Tue,0,SpiceJet,Delhi,Cochin,7569,107.48
+2019-07-24,Wed,0,SpiceJet,Delhi,Cochin,7480,106.22
+2019-07-25,Thu,0,SpiceJet,Delhi,Cochin,7560,107.36
+2019-07-26,Fri,0,SpiceJet,Delhi,Cochin,7476,106.16
+2019-07-27,Sat,1,SpiceJet,Delhi,Cochin,7627,108.31
+2019-07-28,Sun,1,SpiceJet,Delhi,Cochin,7552,107.24
+2019-07-29,Mon,0,SpiceJet,Delhi,Cochin,7415,105.3
+2019-07-30,Tue,0,SpiceJet,Delhi,Cochin,7420,105.37
+2019-07-31,Wed,0,SpiceJet,Delhi,Cochin,7436,105.6
+2019-07-01,Mon,0,Vistara,Delhi,Cochin,6659,94.56
+2019-07-02,Tue,0,Vistara,Delhi,Cochin,6686,94.94
+2019-07-03,Wed,0,Vistara,Delhi,Cochin,6845,97.2
+2019-07-04,Thu,0,Vistara,Delhi,Cochin,6891,97.86
+2019-07-05,Fri,0,Vistara,Delhi,Cochin,6843,97.17
+2019-07-06,Sat,1,Vistara,Delhi,Cochin,7057,100.21
+2019-07-07,Sun,1,Vistara,Delhi,Cochin,7155,101.6
+2019-07-08,Mon,0,Vistara,Delhi,Cochin,6816,96.79
+2019-07-09,Tue,0,Vistara,Delhi,Cochin,6814,96.76
+2019-07-10,Wed,0,Vistara,Delhi,Cochin,6867,97.51
+2019-07-11,Thu,0,Vistara,Delhi,Cochin,6863,97.46
+2019-07-12,Fri,0,Vistara,Delhi,Cochin,6665,94.65
+2019-07-13,Sat,1,Vistara,Delhi,Cochin,6914,98.18
+2019-07-14,Sun,1,Vistara,Delhi,Cochin,7008,99.52
+2019-07-15,Mon,0,Vistara,Delhi,Cochin,6636,94.23
+2019-07-16,Tue,0,Vistara,Delhi,Cochin,6671,94.73
+2019-07-17,Wed,0,Vistara,Delhi,Cochin,6715,95.36
+2019-07-18,Thu,0,Vistara,Delhi,Cochin,6691,95.02
+2019-07-19,Fri,0,Vistara,Delhi,Cochin,6623,94.05
+2019-07-20,Sat,1,Vistara,Delhi,Cochin,6872,97.59
+2019-07-21,Sun,1,Vistara,Delhi,Cochin,6914,98.18
+2019-07-22,Mon,0,Vistara,Delhi,Cochin,6549,93.0
+2019-07-23,Tue,0,Vistara,Delhi,Cochin,6577,93.4
+2019-07-24,Wed,0,Vistara,Delhi,Cochin,6628,94.12
+2019-07-25,Thu,0,Vistara,Delhi,Cochin,6557,93.11
+2019-07-26,Fri,0,Vistara,Delhi,Cochin,6484,92.08
+2019-07-27,Sat,1,Vistara,Delhi,Cochin,6725,95.5
+2019-07-28,Sun,1,Vistara,Delhi,Cochin,6828,96.96
+2019-07-29,Mon,0,Vistara,Delhi,Cochin,6506,92.39
+2019-07-30,Tue,0,Vistara,Delhi,Cochin,6548,92.98
+2019-07-31,Wed,0,Vistara,Delhi,Cochin,6594,93.64
