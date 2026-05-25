@@ -1,4 +1,4 @@
 model,cv_r2,test_r2,mae,rmse
-RandomForestRegressor,0.7959,0.8188,1233.44,1943.67
-XGBRegressor,0.8188,0.84,1162.02,1826.53
-LGBMRegressor,0.8179,0.8371,1181.74,1843.06
+RandomForestRegressor,0.7944,0.8192,1213.53,1941.41
+XGBRegressor,0.8207,0.8356,1143.64,1851.55
+LGBMRegressor,0.8181,0.8276,1199.87,1896.14

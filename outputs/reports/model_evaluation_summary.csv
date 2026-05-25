@@ -7,6 +7,6 @@ Baseline,LGBMRegressor,Random 80/20,0.8275,1261.01,17.91,1896.26,26.93
 ML – Temporal,LightGBM,Temporal Mar-May / Jun,0.5351,1757.89,24.96,,
 Statistical,SARIMAX,Temporal Mar-May / Jun (weekly agg.),-0.3701,1282.36,18.21,,
 ML – Hybrid,LightGBM + SARIMAX,Temporal Mar-May / Jun,0.7629,1392.3,19.77,,
-Tuned,RandomForestRegressor,Random 80/20,0.8188,1233.44,17.52,1943.67,27.6
-Tuned,XGBRegressor,Random 80/20,0.84,1162.02,16.5,1826.53,25.94
-Tuned,LGBMRegressor,Random 80/20,0.8371,1181.74,16.78,1843.06,26.17
+Tuned,RandomForestRegressor,Random 80/20,0.8192,1213.53,17.23,1941.41,27.57
+Tuned,XGBRegressor,Random 80/20,0.8356,1143.64,16.24,1851.55,26.29
+Tuned,LGBMRegressor,Random 80/20,0.8276,1199.87,17.04,1896.14,26.93
